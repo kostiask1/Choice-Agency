@@ -1,0 +1,81 @@
+.cta {
+    height: 100vh;
+    background: url(../assets/img/bg-1.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        font-weight: 500;
+        font-size: 62px;
+        line-height: 73px;
+        @media screen and (max-width: 767px) {
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+    a:not(.logo) {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        border: 2px solid #6ceec7;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 16px 50px;
+        transition: all 0.3s;
+        &:hover {
+            background-color: #6ceec7;
+            color: var(--black);
+        }
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .vectors {
+        .vector-1 {
+            right: 10vw;
+            top: 0;
+            transform: translateY(-25%);
+        }
+        .vector-2 {
+            left: 0;
+            top: 45vh;
+            transform: translateY(-100%) translateX(-25%);
+        }
+        .vector-3 {
+            right: 0;
+            bottom: 45px;
+            transform: translateX(25%);
+        }
+        @media screen and (max-width: 767px) {
+            .vector-1 {
+                left: 0;
+                top: 0;
+                transform: translateX(-35%) scale(0.7);
+            }
+            .vector-2 {
+                right: 0;
+                left: unset;
+                transform: translateY(-100%) translateX(38%) scale(0.7);
+            }
+            .vector-3 {
+                left: 0;
+                right: unset;
+                transform: translateX(-25%) scale(0.7);
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .logo img {
+            width: 120px;
+        }
+    }
+}

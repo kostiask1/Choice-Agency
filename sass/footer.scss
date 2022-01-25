@@ -1,0 +1,30 @@
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+    color: var(--fadedtext);
+    span,
+    a {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    a {
+        display: inline-block;
+        position: relative;
+        &:after {
+            content: " ";
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: var(--main);
+        }
+    }
+    @media screen and (max-width: 768px) {
+        bottom: 55px;
+    }
+}

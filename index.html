@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>TZ Kanshyn</title>
+
+        <meta name="description" content="" />
+        <meta
+            http-equiv="Cache-Control"
+            content="no-cache, no-store, must-revalidate"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.min.css" />
+    </head>
+    <body>
+        <section class="cta">
+            <div class="container">
+                <a href="/" class="logo"
+                    ><img src="assets/logo.svg" alt="Logo"
+                /></a>
+                <h1>
+                    Find the <strong>best place</strong> <br />
+                    <strong>to rest</strong> while traveling
+                </h1>
+                <a href="#form">Registration</a>
+            </div>
+            <div class="vectors">
+                <img
+                    class="vector-1"
+                    src="assets/vectors/section_1-svg_1.svg"
+                    alt="section_1-svg_1"
+                />
+                <img
+                    class="vector-2"
+                    src="assets/vectors/section_1-svg_2.svg"
+                    alt="section_1-svg_2"
+                />
+                <img
+                    class="vector-3"
+                    src="assets/vectors/section_1-svg_3.svg"
+                    alt="section_1-svg_3"
+                />
+            </div>
+        </section>
+        <section id="form" class="form">
+            <div class="container">
+                <h2>
+                    <strong>Sign Up</strong> and find the best place to rest
+                    while traveling
+                </h2>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper name"
+                                style="animation-delay: 0.6s"
+                            >
+                                <input type="text" name="name" id="name" />
+                                <span>First Name</span>
+                                <small
+                                    >The name must be more than 2
+                                    characters</small
+                                >
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper surname"
+                                style="animation-delay: 0.6s"
+                            >
+                                <input
+                                    type="text"
+                                    name="surname"
+                                    id="surname"
+                                />
+                                <span>Second Name</span>
+                                <small
+                                    >The surname must be more than 2
+                                    characters</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div
+                                class="countries"
+                                style="animation-delay: 0.4s"
+                            >
+                                <select
+                                    class="select2"
+                                    name="countries"
+                                    id="countries"
+                                    required
+                                >
+                                    <option value="" selected>&nbsp;</option>
+                                </select>
+                                <span class="placeholder">Country</span>
+                                <small>Fill in the field</small>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper phone"
+                                style="animation-delay: 0.4s"
+                            >
+                                <input
+                                    type="phone"
+                                    name="phone"
+                                    id="phone"
+                                    required
+                                />
+                                <span>phone</span>
+                                <small>Fill in the field</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper password"
+                                style="animation-delay: 0.2s"
+                            >
+                                <input
+                                    type="password"
+                                    name="password"
+                                    id="password"
+                                    autocomplete="tz-password"
+                                />
+                                <span>Password</span>
+                                <small
+                                    >Password must have 1 letter, 1 number and
+                                    one symbol</small
+                                >
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper password_confirm"
+                                style="animation-delay: 0.2s"
+                            >
+                                <input
+                                    type="password"
+                                    name="password_confirm"
+                                    id="password_confirm"
+                                    autocomplete="tz-password"
+                                />
+                                <span>Confirm password</span>
+                                <small>Password does not match</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div
+                                class="form_input_wrapper email"
+                                style="animation-delay: 0s"
+                            >
+                                <input type="email" name="email" id="email" />
+                                <span>Email</span>
+                                <small>Email is not correct</small>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="checkbox" style="animation-delay: 0s">
+                                <input
+                                    type="checkbox"
+                                    name="terms"
+                                    id="terms"
+                                />
+                                <label class="checker" for="terms"></label>
+                                <label for="terms"
+                                    >I agree to the
+                                    <a href="#">Terms & Conditions</a></label
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="btn-wrap">
+                                <button type="submit">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="vectors">
+                <img
+                    class="vector-1"
+                    src="assets/vectors/section_2-svg_1.svg"
+                    alt="section_2-svg_1"
+                />
+                <img
+                    class="vector-2"
+                    src="assets/vectors/section_2-svg_2.svg"
+                    alt="section_2-svg_2"
+                />
+                <img
+                    class="vector-3"
+                    src="assets/vectors/section_2-svg_3.svg"
+                    alt="section_2-svg_3"
+                />
+            </div>
+        </section>
+        <footer>
+            <span>If you have an account, <a href="#">Log In</a></span>
+        </footer>
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+    </body>
+</html>
